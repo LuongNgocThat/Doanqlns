@@ -1,0 +1,33 @@
+# Requirements cho hệ thống nhận diện khuôn mặt cải tiến
+# Để đạt độ chính xác 100%
+
+# Core libraries
+Flask==2.3.3
+numpy==1.24.3
+opencv-python==4.8.1.78
+
+# DeepFace và các model nhận diện
+deepface==0.0.79
+tensorflow==2.13.0
+keras==2.13.1
+
+# Face recognition libraries
+face-recognition==1.3.0
+dlib==19.24.2
+
+# Image processing
+Pillow==10.0.1
+scikit-image==0.21.0
+
+# Database
+PyMySQL==1.1.0
+PyMySQL[rsa]==1.1.0
+
+# Utilities
+requests==2.31.0
+python-dateutil==2.8.2
+
+# Optional: GPU support (nếu có GPU)
+# tensorflow-gpu==2.13.0
+# cupy-cuda11x==12.2.0  # Thay x bằng phiên bản CUDA phù hợp
+

@@ -1,0 +1,113 @@
+body {
+    background-color: #f8f9fa;
+}
+.container {
+    max-width: 800px;
+}
+#video {
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    background-color: #000;
+    display: block;
+    margin: 0 auto;
+}
+#result {
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+.alert {
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 14px;
+}
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border-left: 4px solid #28a745;
+}
+.alert-warning {
+    background-color: #fff3cd;
+    color: #856404;
+    border-left: 4px solid #ffc107;
+}
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border-left: 4px solid #dc3545;
+}
+.alert-info {
+    background-color: #d1ecf1;
+    color: #0c5460;
+    border-left: 4px solid #17a2b8;
+}
+.table th, .table td {
+    vertical-align: middle;
+}
+.card {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.btn {
+    margin: 5px;
+}
+#capture {
+    background-color: #28a745;
+    border-color: #28a745;
+    font-weight: bold;
+}
+#capture:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+/* CSS cho các nút xóa */
+.delete-btn {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: white;
+    font-size: 12px;
+    padding: 4px 8px;
+    margin: 0;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+    color: white;
+}
+
+#clearAllBtn {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: white;
+    font-size: 12px;
+    padding: 4px 12px;
+}
+
+#clearAllBtn:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+    color: white;
+}
+
+/* CSS cho bảng */
+.table th {
+    background-color: #f8f9fa;
+    border-top: none;
+    font-weight: 600;
+}
+
+.table td {
+    padding: 12px 8px;
+}
+
+/* CSS cho card header */
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    font-weight: 600;
+}

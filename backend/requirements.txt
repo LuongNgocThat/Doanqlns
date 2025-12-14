@@ -1,0 +1,7 @@
+# requirements.txt - Các thư viện cần thiết cho hệ thống điểm danh
+Flask==2.3.3
+opencv-python==4.8.1.78
+numpy==1.24.3
+Pillow==10.0.1
+# Thay thế face_recognition bằng deepface (dễ cài đặt hơn trên Windows)
+deepface==0.0.79
